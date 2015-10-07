@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		B156AD8B1AA7A7400028C589 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B156AD8A1AA7A7400028C589 /* main.cpp */; };
+		B156AD931AA7A74C0028C589 /* GLUT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B156AD911AA7A74C0028C589 /* GLUT.framework */; };
+		B156AD941AA7A74C0028C589 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B156AD921AA7A74C0028C589 /* OpenGL.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +27,8 @@
 /* Begin PBXFileReference section */
 		B156AD871AA7A7400028C589 /* graf1 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = graf1; sourceTree = BUILT_PRODUCTS_DIR; };
 		B156AD8A1AA7A7400028C589 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		B156AD911AA7A74C0028C589 /* GLUT.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLUT.framework; path = System/Library/Frameworks/GLUT.framework; sourceTree = SDKROOT; };
+		B156AD921AA7A74C0028C589 /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,6 +36,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B156AD931AA7A74C0028C589 /* GLUT.framework in Frameworks */,
+				B156AD941AA7A74C0028C589 /* OpenGL.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -41,6 +47,8 @@
 		B156AD7E1AA7A7400028C589 = {
 			isa = PBXGroup;
 			children = (
+				B156AD911AA7A74C0028C589 /* GLUT.framework */,
+				B156AD921AA7A74C0028C589 /* OpenGL.framework */,
 				B156AD891AA7A7400028C589 /* graf1 */,
 				B156AD881AA7A7400028C589 /* Products */,
 			);
